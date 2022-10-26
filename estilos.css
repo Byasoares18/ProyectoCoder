@@ -263,7 +263,8 @@ li a:hover, li a.active{
 
 #footer{
 	background: rgba(201, 217, 233, 0.852);
-	
+	margin-top: 50%;
+    width: 100%;
     
 }
 
@@ -317,8 +318,9 @@ li a:hover, li a.active{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    height: 56.25rem;
-    
+    width: 100%;
+    height: 100%;
+       
  }   
 
  .yg p{
@@ -631,10 +633,10 @@ nav ul li a {
     nav ul{
         position: fixed;
         width: 100%;
-        height: 44vh;
+        height: 85%;
         background: #ccdef4d8;
-        top:80px;
-        left: -100%;
+        top:10px;
+        left: 100%;
         text-align: center;
         transition: all .5s;
         
@@ -670,6 +672,10 @@ nav ul li a {
     margin-left: 20%;
 }
 
+.promo{
+    margin-top: 30%;
+}
+
 .conteudo{
     float: none;
     margin: 25%;
@@ -684,6 +690,10 @@ nav ul li a {
     height: 60%;
    margin-left: auto;
 }
+#footer{
+    margin-top: 150%;
+}
+
 }
 
 
@@ -691,7 +701,45 @@ nav ul li a {
 
 
 @media (max-width:525px){
+    .checkbtn{
+        display: block;
+    }
+    nav ul{
+        position: fixed;
+        width: 100%;
+        height: 80%;
+        background: #ccdef4d8;
+        top:80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+        
+        
+    }
+     nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 30px;
+        
+    }
+    li a:hover, li a.active{
+     background: none;
+     color: #050505;
+    }
+    li a:hover{
+        color: #d884c0;
+    }
+    #check:checked ~ul{
+        left: 0;
+    }
 
+    .promo{
+        animation: none;
+        margin-top: 30%;
+    }
     .container{
         margin-top: 5%;
         align-content: space-between;
@@ -730,10 +778,9 @@ nav ul li a {
        margin-left: auto;
     }
 
-   #footer{
-    margin-top: 305%;
    
-   }
+   
+   
   .text1, .text2, .text3, .text4 {
     padding: 0;
    }
@@ -745,38 +792,35 @@ nav ul li a {
     margin: 0;
    
 }
-
-
+   #footer{
+    margin-top: 550%;
 }
+}
+
+
+@media (max-width:320px){
+   .yg{
+    width: 100%;
+    height: 100%;
+   }
+
+   #footer{
+    margin-top: 550%;
+}
+}
+   
+    
+   
 
 
 /* animation page 1 */
 
 
-.animationfind{
-    animation: find 4s linear;
-    
 
-}
-
-@keyframes find {
-    
-    
-        0% {
-        transform: scale(1, 1);
-        }
-        50% {
-        transform: scale(1.5, 1.5);
-        }
-        100% {
-        transform: scale(1, 1);
-        }
-        
-}
 
 
 .promo{
-    width: 100%;
+    width: 50%;
     height: 20px;
     background-color: #eff1f4;
     font-weight: bold;
@@ -788,6 +832,6 @@ nav ul li a {
 
  
     @keyframes mymove {
-        from {left: 0px;}
-        to {left: 1300px;}
+        from {left: 0%;}
+        to {left: 50%;}
       }
