@@ -449,7 +449,7 @@ li a:hover, li a.active{
 }
 .conteudo{
     width: 30%;
-    background-color: #CCDEF4;
+    background-color: #ccdef48f;
     border-radius: 10%;
     margin: 0.3125rem;
     float: left;
@@ -465,7 +465,7 @@ li a:hover, li a.active{
     text-align: center;
 }
 .conteudo:hover{
-    background: #3d464f;
+    background: #f3adca;
     color: #CCDEF4;
     transition: 0.5 all;
     transform: scale(1.1);
@@ -497,20 +497,21 @@ li a:hover, li a.active{
 .conteudo a{
     text-decoration: none;
     border-radius: 0.3125rem;
-    border: 0.125rem solid rgb(200, 129, 171);
-    color: rgb(136, 71, 112);
+    border: 0.125rem solid rgb(219, 188, 206);
+    color: rgb(203, 109, 169);
     padding: 10% 3.75rem;
     display: inline-block;
     margin: 10%;
     text-transform: uppercase;
     font-weight: bolder;
+    background-color: #173655;
 }
 .conteudo a:hover{
     text-decoration: none;
     border-radius: 0.3125rem;
     border: 0.125rem solid rgb(233, 212, 224);
-    background-color: #f057c5;
-    color: #171818;
+    background-color: #e8cae0;
+    color: #d4adcf;
     display: inline-block;
     margin: 10% auto;
     text-transform: uppercase;
