@@ -1,0 +1,792 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}  
+html, body{
+    height: 100%;
+    background-color: #c5d0d512;
+    
+
+}
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    
+    background-color: #CCDEF4;
+    display: flex;
+    height: 80px;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    justify-items: space-between;
+    
+}
+
+.enlace {
+    
+    padding: 0px 50px;
+}
+
+  
+nav ul {
+    
+    float: right;
+    margin-right: 20px;
+}
+nav ul li {
+    
+    display: inline-block;
+    line-height: 80px;
+    margin: 0px 5px;
+    font-family: 'Inter', sans-serif;
+    
+}
+  
+nav ul li a {
+    color: #0d0d0d;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-family: 'Playfair Display ' ,black 900, serif ;
+    
+
+}
+
+li a:hover, li a.active{
+    color: rgb(222, 158, 167);
+    
+    transition: .5s;
+}
+.checkbtn{
+    font-size: 30px;
+    color: #050505;
+    line-height: 80px;
+    float: right;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+.logo  {
+    width: 140px;
+    height: 80px;
+    display: flex;
+    
+    
+}
+
+
+
+    
+.container{
+	width: 6,25em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: rgb(73, 66, 66);
+    justify-content: space-around;
+}
+.left{
+	flex-basis: 40%;
+    max-width: 62em;
+    margin-top: 5%;
+    
+}
+.right{
+	flex-basis: 70%;
+	max-width: 25em;
+    margin-top: 5%;
+    margin-left: 30%;
+}
+.right h1{
+	color: #74b9ff;
+	font-size: 3.125rem;
+    font-family: 'Playfair Display', serif;
+}
+.right p{
+	font-size: 1.5625rem;
+	margin:0.625rem 0rem;
+    font-family: 'Playfair Display', serif;
+}
+
+.btn {
+	background: rgb(193, 228, 232);
+	padding: 10px 20px;
+	color: #74b9ff;
+	border: 1px solid #74b9ff;
+	border-radius: 0.5rem;
+    text-decoration: none;
+
+}
+.btn a {
+    text-decoration: none;
+    color: #141b22;
+}
+#sobre{
+	padding: 6rem 0rem;
+}
+.sobre-row{
+	
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.sobre-left-col{
+	flex-basis: 50%;
+
+}
+.sobre-right-col{
+	flex-basis: 50%;	
+	text-align: center;
+}
+.sobre-right-col img{
+	width: 80%;
+}
+.sobre-left-col{
+	max-width: 25em;
+	margin:auto;
+}
+
+
+.sobre-left-col h1{
+	font-size: 3.125rem;
+    margin: 1rem;
+    font-family: 'Playfair Display', serif;
+}
+.sobre-left-col p{
+	font-size: 1.25rem;
+	text-align: justify;
+	margin:1rem 0rem;
+    font-family: 'Playfair Display', serif;
+}
+
+
+.c-btn{
+	padding: 0.625rem;
+	border-radius: 15%;
+	color: rgb(66, 172, 208);
+	border: none;
+	background: rgb(193, 228, 232);
+    text-decoration: none;
+
+
+}
+.c-btn a{
+    text-decoration: none;
+    color: #171818;
+}
+ h2 {
+    display: flex;
+    justify-content: center;
+    margin: 5rem 0 5rem 0;
+    font-size: 2.5rem;
+    font-family: 'Playfair Display', serif;
+    
+
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 61rem;
+    margin: auto;
+    grid-gap: 2,5rem;
+    margin-top: 10%;
+    
+}
+
+.card{
+    background-color: rgba(238, 250, 250, 0.748);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2.1875rem 2.5rem;
+    box-shadow: 0.375rem 0.375rem 0.625rem #a0c6ed90;
+    border-radius: 05%;
+    margin: 1rem;
+    
+
+}
+
+.user {
+    width: 50%;
+    height: 6.25rem;
+    border-radius:500%;
+    margin-bottom: 0.9375rem;
+}
+.card h3{
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 0.3125rem;
+}
+.cards p{
+    margin-top: 1.25rem;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.125rem;
+}
+
+.galeria{
+    
+    
+    margin: 10% ;
+    height: 100%;
+    display: flex;  
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 5%;
+    align-items: center;
+    background-color: #d7e4e434;
+}
+.galery img{
+    height: 12.5rem;
+    width: 12.5rem;
+    margin: 0.625rem;
+    border-radius: 1.875rem;
+    transition: 0.5s filter;
+}
+.galery:hover{
+    filter: brightness(0.6);
+}
+
+
+
+#footer{
+	background: rgba(201, 217, 233, 0.852);
+	
+    
+}
+
+#footer h2{
+	font-size: 2.5rem;
+    letter-spacing: 0.625rem;
+    color:rgb(15, 15, 15);
+	text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+.email{
+    color: #3d464f;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    margin-top: -5%;
+}
+ 
+.redes{
+    color: #444245;
+    font-size: 35px;
+    text-align: center;
+    padding: 2%;
+}
+.subir{
+    height: 2.5rem;
+    width: 2.5rem;
+    color: #e16ef0;
+    border: #3d464f;
+    position: fixed;
+    right: 1.25rem;
+    bottom: 1.25rem;
+    text-align: center;
+    font-size: 2.5rem;
+    line-height: 2.8125rem;
+
+}
+
+
+/* Pagina 2 */
+.titulo2{
+   
+    text-align: center; 
+    width: 100%;
+    padding: 50px;
+    
+
+}
+.yg{
+    background-color: #eaeff500;
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 900px;
+    
+ }   
+
+ .yg p{
+    font-size: 150%;
+    letter-spacing: 10%;
+    margin: 1%;
+
+ }
+ .yg h4{
+    font-size: 25px;
+    margin-bottom: 3%;
+ }
+.colum1{
+    float: left;
+    flex-basis: 40%;
+    flex-grow: 2;
+    margin: 1%;
+}
+.colum2{
+    float: right;
+    flex-basis: 50%;
+    
+    margin: 1%;
+
+    
+}
+
+
+
+
+/* pagina 3 */
+
+#title{
+    text-align: center;
+    
+    padding: 5%;
+    font-family: 'Playfair Display', serif;
+  }
+  .text1 h3,.text2 h3,.text3 h3 ,.text4 h3{
+   margin-top: -8%;
+  }
+.teacher1 img{
+    
+    max-width: 18.75rem;
+	margin:auto;
+    display: flex;
+    border-radius: 100%;
+    
+    
+}
+
+.teacher2 img{
+    
+    max-width: 31.25rem;
+	margin:auto;
+    display: flex;
+    border-radius: 100%;
+    
+   
+}
+.teacher3 img{
+    
+    max-width: 30.25rem;
+	margin:auto;
+    display: flex;
+    border-radius: 90%;
+    
+}
+.teacher4 img{
+    
+    max-width: 18.75rem;
+	margin:auto;
+    display: flex;
+    border-radius: 100%;
+    
+}
+
+.prof{
+    padding: 6.25rem 0rem;
+    
+    
+}
+
+.text1,.text2,.text3,.text4 {
+    padding: 6.25rem;
+    background-color: #dfe4ee3c;
+    margin: 3.125rem 3.125rem 3.125rem 3.125rem;
+    font-family: 'Playfair Display', serif;
+    border-radius: 3%;
+    column-count: calc(2);
+ 
+}
+.horarios h2{
+    text-align: center;
+    font-size: xx-large;
+    
+}
+.tabla td{
+    border: 0.125rem solid rgb(77, 153, 194);
+    padding: 0.625rem;
+
+}
+.tabla tr{
+    background-color: #c8e0edad;
+    
+}
+.tabla th{
+    padding: 0.625rem;
+}
+.tabla{
+    border: 0.625rem solid rgb(31, 17, 20);
+    width: 50rem;
+    border-collapse: separate;
+    display: flex;
+    border-style: hidden;
+    align-items: center;
+    height: 37.5rem;
+    margin: 8% 22%;
+    
+}
+ /* pagina 4 */
+
+.conteiner1{
+    width: 56.25rem;
+    margin: auto;
+    align-items: center;
+
+}
+.conteudo{
+    width: 30%;
+    background-color: #CCDEF4;
+    border-radius: 10%;
+    margin: 0.3125rem;
+    float: left;
+    margin-top: 8%;
+    text-align: center;
+
+
+}  
+.precio{
+    width: 7.5rem;
+    height: 7.5rem;
+    margin: 5% auto 0 auto;
+    text-align: center;
+}
+.conteudo:hover{
+    background: #3d464f;
+    color: #CCDEF4;
+    transition: 0.5 all;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.detalles{
+    margin-top: -10%;
+}
+
+.conteudo h2{
+    font-size: 1.25rem;
+    color: #e16ef0;
+    line-height: 4;
+    text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
+}
+.precio h3{
+    font-size: 2.5rem;
+    color: rgb(17, 17, 18);
+}
+.detalles h4{
+    font-size: 0.9375rem;
+    font-weight:  normal;
+    text-align: center;
+    color: rgb(13, 43, 69);
+    line-height: 1;
+    margin-top: 10%;
+}
+.conteudo a{
+    text-decoration: none;
+    border-radius: 0.3125rem;
+    border: 0.125rem solid rgb(200, 129, 171);
+    color: rgb(136, 71, 112);
+    padding: 10% 60px;
+    display: inline-block;
+    margin: 10%;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.conteudo a:hover{
+    text-decoration: none;
+    border-radius: 0.3125rem;
+    border: 0.125rem solid rgb(233, 212, 224);
+    background-color: #f057c5;
+    color: #171818;
+    display: inline-block;
+    margin: 10% auto;
+    text-transform: uppercase;
+    font-weight: bolder;
+
+}
+.video video{
+    width: auto;
+    height: 31.25rem;
+    margin-top: 5%;
+    margin-left: 15%;
+    
+}
+
+/* page 5 */
+
+.formulario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin: 5%;
+    
+}
+.formulario h2{
+    font-size: 2rem;
+    color: #171818;
+    margin-bottom: 2rem;
+    text-align: center;
+    line-height: 1.2;
+    font-family: 'Playfair Display', serif;
+
+}
+form{
+    width: 100%;
+    max-width: 32em;
+    font-size: 1.125rem;
+
+}
+form label, form input , form textarea, form button {
+    display: block;
+    width: 100%;
+
+}
+form label{
+    color: #141b22;
+    line-height: 1;
+    margin-bottom: 0.5rem;
+
+}
+form input, form textarea{
+    font: inherit;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid ;
+    border-radius: 0.5rem;
+}
+
+form textarea {
+    min-height: 13rem;
+    resize: vertical;
+}
+form input:hover,form input:focus,form textarea:hover,form textarea:focus{
+    outline: none;
+    border-color: #74b9ff;
+    box-shadow: 0 0 0 0.1875rem #c5d0d5;
+}
+form button {
+    display: block;
+    padding: 1rem;
+    background: #77abdf;
+    font: inherit;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+
+}
+
+.contacto1{
+    
+    flex-basis: 60%;
+    max-width: 100%;
+    display: grid;
+    padding: 5%;
+    background-color: #f1f4f754;
+    margin-top: 50%;
+    align-content: space-between;
+    
+}
+
+
+
+
+
+
+
+/* medias queries */
+    
+
+@media (max-width:952px){
+.enlace{
+    padding-left: 20px;
+
+}
+nav ul li a {
+    font-size: 16px;
+}
+}
+
+@media (max-width:852px){
+    .checkbtn{
+        display: block;
+    }
+    nav ul{
+        position: fixed;
+        width: 100%;
+        height: 44vh;
+        background: #ccdef4d8;
+        top:80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+        
+        
+    }
+     nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 30px;
+        
+    }
+    li a:hover, li a.active{
+     background: none;
+     color: #050505;
+    }
+    li a:hover{
+        color: #d884c0;
+    }
+    #check:checked ~ul{
+        left: 0;
+    }
+
+    .container{
+        margin-top: 5%;
+        align-content: space-between;
+    }
+
+   .right {
+    flex-basis: auto;
+    margin-left: 20%;
+}
+
+.conteudo{
+    float: none;
+    margin: 25%;
+    margin-top: -20%;
+
+}
+.price h2{
+    margin-bottom: 30%;
+}
+.video video{
+    width: 100%;
+    height: 60%;
+   margin-left: auto;
+}
+}
+
+
+
+
+
+@media (max-width:525px){
+
+    .container{
+        margin-top: 5%;
+        align-content: space-between;
+    }
+   .left{
+    flex-basis: 200%;
+    max-width: 100%;
+    margin-top: 5%;
+   }
+   .right {
+    flex-basis: auto;
+    margin-top: 5%;
+   }
+    .sobre-row{
+        display: block;
+    }
+    .sobre-right-col{
+        padding: 5%;
+    }
+    .cards{
+        display: block;
+        padding: 15%;
+    }
+    .galeria{
+        height: auto;
+    }
+
+    .conteudo{
+        float: none;
+        margin: 10%;
+   
+    }
+    .video video{
+        width: 100%;
+        height: 60%;
+       margin-left: auto;
+    }
+
+   #footer{
+    margin-top: 305%;
+   
+   }
+  .text1, .text2, .text3, .text4 {
+    padding: 0;
+   }
+  .teacher1 img,.teacher2 img,.teacher3 img,.teacher4 img{
+    width: 100%;
+   }
+   .tabla{
+    width: 2px;
+    margin: 0;
+   
+}
+
+
+}
+
+
+/* animation page 1 */
+
+
+.animationfind{
+    animation: find 4s linear;
+    
+
+}
+
+@keyframes find {
+    
+    
+        0% {
+        transform: scale(1, 1);
+        }
+        50% {
+        transform: scale(1.5, 1.5);
+        }
+        100% {
+        transform: scale(1, 1);
+        }
+        
+}
+
+
+.promo{
+    width: 100%;
+    height: 20px;
+    background-color: #eff1f4;
+    font-weight: bold;
+    position: relative;
+    animation: mymove 5s infinite;
+    animation-timing-function: linear;
+}
+
+
+ 
+    @keyframes mymove {
+        from {left: 0px;}
+        to {left: 1300px;}
+      }
