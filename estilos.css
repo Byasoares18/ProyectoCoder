@@ -418,31 +418,25 @@ li a:hover, li a.active{
 .horarios h2{
     text-align: center;
     font-size: xx-large;
+    font-family: 'Playfair Display', serif;
     
 }
-.tabla td{
-    border: 0.125rem solid rgb(77, 153, 194);
-    padding: 0.625rem;
-
-}
-.tabla tr{
-    background-color: #c8e0edad;
+.horarios{
+    border-collapse: collapse;
+  }
+  td,th{
+    padding: 10px 10px;
+    border: 0.125rem solid rgba(77, 153, 194, 0.174);
+    background-color: #dae1e44e; 
+    font-family: 'Playfair Display', serif;
+  }
+  .color{
+    background-color: #93a1a16d; ;
+  }
+  table{
+    margin: 15%;
     
-}
-.tabla th{
-    padding: 0.625rem;
-}
-.tabla{
-    border: 0.625rem solid rgb(31, 17, 20);
-    width: 50rem;
-    border-collapse: separate;
-    display: flex;
-    border-style: hidden;
-    align-items: center;
-    height: 37.5rem;
-    margin: 8% 22%;
-    
-}
+  }
  /* pagina 4 */
 
 .conteiner1{
@@ -696,6 +690,13 @@ nav ul li a {
     margin-top: 150%;
 }
 
+.tabla{
+    display: block;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    margin: auto;
+}
+
 }
 
 
@@ -783,21 +784,25 @@ nav ul li a {
    
    
    
-  .text1, .text2, .text3, .text4 {
+    .text1, .text2, .text3, .text4 {
     padding: 0;
-   }
-  .teacher1 img,.teacher2 img,.teacher3 img,.teacher4 img{
+    }
+    .teacher1 img,.teacher2 img,.teacher3 img,.teacher4 img{
     width: 100%;
-   }
-   .tabla{
-    width: 2px;
-    margin: 0;
-   
-}
-   #footer{
+    }
+    table{
+  
+    display: block;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    }
+      
+
+    
+    #footer{
     margin-top: 550%;
-}
-}
+    }
+   }
 
 
 @media screen and (max-width:320px){
@@ -836,19 +841,75 @@ nav ul li a {
     #check:checked ~ul{
         left: 0;
     }
+    .container{
+        margin-top: 5%;
+        align-content: space-between;
+    }
 
-   .yg{
-    width: 100%;
-    height: 100%;
-   }
+    .right {
+    flex-basis: auto;
+    margin-left: 20%;
+    }
 
-   #footer{
+    .promo{
+    margin-top: 30%;
+    }
+
+    .yg{
+    width: 10%;
+    height: 90%;
+    }
+
+    #footer{
     margin-top: 550%;
+    }
+    .colum1,.colum2 {
+    flex-basis: 2%;
+
+    }
+    .yg p{
+    margin: -10%;
+    }
+
+    .container{
+    margin-top: 5%;
+    align-content: space-between;
+    }
+    .left{
+    flex-basis: 200%;
+    max-width: 100%;
+    margin-top: 5%;
+    }
+    .right {
+    flex-basis: auto;
+    margin-top: 5%;
+    }
+    .sobre-row{
+    display: block;
+    }
+    .sobre-right-col{
+    padding: 5%;
+    }
+    .cards{
+    display: block;
+    padding: 15%;
+    }
+    .galeria{
+    height: auto;
+    }
+    table{
+  
+    display: block;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    }
+      
+    .conteudo{
+    float: none;
+    margin: 10%;
+    }
 }
-}
-   
-    
-   
+
 
 
 /* animation page 1 */
@@ -868,8 +929,8 @@ nav ul li a {
 }
 
 
- 
+
     @keyframes mymove {
         from {left: 0%;}
         to {left: 50%;}
-      }
+}
