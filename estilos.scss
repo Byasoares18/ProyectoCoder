@@ -37,12 +37,7 @@ $background-color_13: #e8cae0;
 $background-color_14: #eff1f4;
 $border-color_1: #74b9ff;
 
-/* Pagina 2 */
-/* pagina 3 */
-/* pagina 4 */
-/* page 5 */
-/* medias queries */
-/* animation page 1 */
+
 @keyframes mymove {
 	from {
 		left: 0%;
@@ -277,7 +272,7 @@ h2 {
 }
 #footer {
 	background: rgba(201, 217, 233, 0.852);
-	margin-top: 50%;
+	margin-top: 10%;
 	width: 100%;
 	h2 {
 		font-size: 2.5rem;
@@ -398,13 +393,11 @@ h2 {
 	font-family: $font-family_3;
 	letter-spacing: 2%;
 }
-.horarios {
-	h2 {
+.horarios h2 {
 		text-align: center;
 		font-size: xx-large;
 		font-family: $font-family_3;
-	}
-	border-collapse: collapse;
+        
 }
 td {
 	padding: 10px 10px;
@@ -423,7 +416,10 @@ th {
 }
 table {
 	margin: 15%;
+    
+
 }
+
 .conteiner1 {
 	width: 56.25rem;
 	margin: auto;
@@ -586,7 +582,8 @@ form {
 	}
 }
 iframe {
-	margin-bottom: -40%;
+	margin-bottom: -50%;
+    padding: 3%;
 }
 .promo {
 	width: 50%;
@@ -684,20 +681,26 @@ iframe {
 		}
 	}
 	#footer {
-		margin-top: 150%;
+		margin-top: 100%;
 	}
-	.tabla {
+	table {
 		display: block;
 		overflow-x: scroll;
 		overflow-y: scroll;
 		margin: auto;
 	}
+    .horarios {
+        h2{
+        margin-top: 50%;
+        }
+    }
 	.flip-card {
 		margin-top: 50%;
 		margin-bottom: -20%;
 	}
 	iframe {
 		margin-bottom: -50%;
+
 	}
 }
 @media screen and (max-width:525px) {
@@ -837,21 +840,20 @@ iframe {
 		margin-top: 50%;
 	}
 	.flip-card {
-		margin-top: 50%;
+		margin-top: 80%;
 		margin-bottom: -20%;
-		margin-top: 100%;
-		margin-bottom: -20%;
-		margin-top: 110%;
-		margin-bottom: -50%;
+		
 	}
 	table {
 		display: block;
 		overflow-y: scroll;
 		overflow-x: scroll;
-		display: block;
-		overflow-y: scroll;
-		overflow-x: scroll;
+        margin-top: 50%;
+		
 	}
+    
+    
+    }
 	#footer {
 		margin-top: 300%;
 		margin-top: 550%;
@@ -961,11 +963,16 @@ iframe {
 	}
 	.flip-card {
 		margin-top: 110%;
-		margin-bottom: -50%;
+		margin-bottom: -40%;
 	}
+
+    .horarios {
+        h2{
+        margin-top: 50%;
+        }
+    }
 	.conteudo {
 		float: none;
 		margin: 10%;
 	}
-}
 }
