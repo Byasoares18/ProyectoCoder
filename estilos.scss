@@ -33,7 +33,7 @@ $background-color_10: #93a1a16d;
 $background-color_11: #ccdef48f;
 $background-color_12: #173655;
 $background-color_13: #e8cae0;
-$background-color_14: #eff1f4;
+$background-color_14: #eff1f476;
 $background-color_15: rgba(234, 239, 245, 0);
 $border-color_1: #74b9ff;
 
@@ -274,7 +274,7 @@ h2 {
 }
 #footer {
 	background: rgba(201, 217, 233, 0.852);
-	margin-top: 0%;
+	
 	width: 100%;
 	h2 {
 		font-size: 2.5rem;
@@ -282,19 +282,23 @@ h2 {
 		color: $color_9;
 		text-align: center;
 		font-family: $font-family_3;
+		margin: 2%;
 	}
 }
 .email {
 	color: $color_10;
 	font-family: $font-family_3;
 	text-align: center;
-	margin-top: -5%;
+	margin-top: 1%;
 }
 .redes {
 	color: $color_11;
 	font-size: 35px;
 	text-align: center;
 	padding: 2%;
+	&:hover{
+		color: $color_12;
+	}
 }
 .subir {
 	height: 2.5rem;
@@ -317,34 +321,33 @@ h2 {
 
 
 .yg {
-	background-color: $background-color_15;
-	margin: 1;
+	background-color: $background-color_1;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	width: 100%;
-	height: 100%;
+	height: 200vh;
+	margin-bottom: 25%;
+	justify-content: center;
 	p {
-		font-size: 100%;
-		letter-spacing: 10%;
-		margin: 1%;
+		font-size: 27px;
+		letter-spacing: 1px;
+		margin-bottom: 20%;
 	}
 	h4 {
-		font-size: 1.5625rem;
+		font-size: 40px;
 		margin-bottom: 3%;
+		letter-spacing: 3%;
 	}
 }
 .colum1 {
-	float: left;
-	flex-basis: 30%;
-	flex-grow: 2;
-	margin: 1%;
+	flex-basis: 50%;
+	padding: 3%;
+	margin: 0%;
+	
+	
 }
-.colum2 {
-	float: right;
-	flex-basis: 30%;
-	margin: 1%;
-}
+
 
 #title {
 	text-align: center;
@@ -596,7 +599,7 @@ iframe {
 	background-color: $background-color_14;
 	font-weight: bold;
 	position: relative;
-	animation: mymove 5s infinite;
+	animation: mymove 10s infinite;
 	animation-timing-function: linear;
 }
 @media screen and (max-width:952px) {
@@ -610,6 +613,16 @@ iframe {
 					font-size: 16px;
 				}
 			}
+		}
+	}
+
+	.yg {
+		height: max-content;
+		margin: 2%;
+		
+		p {
+			margin: 5%;
+			font-size: 30px;
 		}
 	}
 }
@@ -710,10 +723,16 @@ iframe {
 	margin-top: 20%;
     }
     .yg {
-	p {
-		font-size: 100%;
+		height: max-content;
+		margin: 2%;
+		p {
+			margin: 5%;
+		}
 	}
-    }
+	.titulo2 {
+		font-size: 30px;
+	}
+	
 
 }
 @media screen and (max-width:525px) {
@@ -858,20 +877,22 @@ iframe {
 #footer {
 	margin-top: 30%;
 }
+
 .yg {
+	height: max-content;
+	margin: 2%;
+	
 	p {
-		font-size: 80%;
-		letter-spacing: 10%;
-		margin: 1%;
+		margin: 5%;
 	}
 }
 
-	.colum1 {
-		flex-basis: 30%;
-	}
+.colum1{
+	flex-basis: 100%;
 }
-.colum2 {
-	flex-basis: 30%;
+.titulo2 {
+	font-size: 30px;
+}
 }
 
 
@@ -977,14 +998,4 @@ iframe {
 		float: none;
 		margin: 10%;
 	}
-	
-
-.yg {
-	p {
-		font-size: 70%;
-		letter-spacing: 10%;
-		margin-bottom: 10%;
-	}
-}
-
 }
