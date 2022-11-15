@@ -702,7 +702,6 @@ iframe {
 	table {
 		display: block;
 		overflow-x: scroll;
-		overflow-y: scroll;
 		margin: auto;
 	}
     .horarios {
@@ -805,50 +804,44 @@ iframe {
 	.container {
 		margin-top: 5%;
 		align-content: space-between;
-		margin-top: 5%;
-		align-content: space-between;
-		margin-top: 5%;
-		align-content: space-between;
+		
+		
+	}
+	.conteiner1{
+		padding: auto;
 	}
 	.left {
 		flex-basis: 200%;
 		max-width: 100%;
 		margin-top: 5%;
-		flex-basis: 200%;
-		max-width: 100%;
-		margin-top: 5%;
+		
 	}
 	.right {
 		flex-basis: auto;
 		margin-top: 5%;
-		flex-basis: auto;
-		margin-left: 20%;
-		flex-basis: auto;
-		margin-top: 5%;
+		
 	}
 	.sobre-row {
 		display: block;
-		display: block;
+		
 	}
 	.sobre-right-col {
 		padding: 5%;
-		padding: 5%;
+		
 	}
 	.cards {
 		display: block;
 		padding: 15%;
-		display: block;
-		padding: 15%;
+		
 	}
 	.galeria {
 		height: auto;
-		height: auto;
+		
 	}
 	.conteudo {
 		float: none;
 		margin: 10%;
-		float: none;
-		margin: 10%;
+		
 	}
 	.video {
 		video {
@@ -946,14 +939,12 @@ iframe {
 	.container {
 		margin-top: 5%;
 		align-content: space-between;
-		margin-top: 5%;
-		align-content: space-between;
+		
 	}
 	.right {
 		flex-basis: auto;
 		margin-left: 20%;
-		flex-basis: auto;
-		margin-top: 5%;
+		
 	}
 	.promo {
 		margin-top: 30%;

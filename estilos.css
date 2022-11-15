@@ -734,18 +734,13 @@ iframe {
     display: block;
     margin: 50px 0;
     line-height: 30px;
-    display: block;
-    margin: 50px 0;
-    line-height: 30px;
+    
   }
   nav ul li a {
     font-size: 30px;
-    font-size: 30px;
+    
   }
   li a:hover {
-    background: none;
-    color: #050505;
-    color: #d884c0;
     background: none;
     color: #050505;
     color: #d884c0;
@@ -753,66 +748,58 @@ iframe {
   li a.active {
     background: none;
     color: #050505;
-    background: none;
-    color: #050505;
+    
   }
   #check:checked ~ ul {
     left: 0;
-    left: 0;
+    
   }
   .promo {
     -webkit-animation: none;
             animation: none;
     margin-top: 30%;
-    margin-top: 30%;
+    
   }
   .container {
     margin-top: 5%;
     align-content: space-between;
-    margin-top: 5%;
-    align-content: space-between;
-    margin-top: 5%;
-    align-content: space-between;
+    
   }
   .left {
     flex-basis: 200%;
     max-width: 100%;
     margin-top: 5%;
-    flex-basis: 200%;
-    max-width: 100%;
-    margin-top: 5%;
+    
   }
   .right {
     flex-basis: auto;
     margin-top: 5%;
-    flex-basis: auto;
-    margin-left: 20%;
-    flex-basis: auto;
-    margin-top: 5%;
+    
   }
   .sobre-row {
     display: block;
-    display: block;
+    
   }
   .sobre-right-col {
     padding: 5%;
-    padding: 5%;
+    
   }
   .cards {
     display: block;
     padding: 15%;
-    display: block;
-    padding: 15%;
+    
   }
   .galeria {
     height: auto;
-    height: auto;
+  }
+  .conteiner1{
+    padding: 1px;
+    margin: auto;
   }
   .conteudo {
     float: none;
-    margin: 10%;
-    float: none;
-    margin: 10%;
+    margin: 5%;
+    
   }
   .video video {
     width: 100%;
@@ -851,7 +838,7 @@ iframe {
     font-size: 30px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 390px) {
   .checkbtn {
     display: block;
   }
@@ -888,13 +875,11 @@ iframe {
   .container {
     margin-top: 5%;
     align-content: space-between;
-    margin-top: 5%;
-    align-content: space-between;
+    
   }
   .right {
     flex-basis: auto;
     margin-left: 20%;
-    flex-basis: auto;
     margin-top: 5%;
   }
   .promo {
